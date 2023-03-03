@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: Dubbo_Test
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+dubbo:
+  application:
+    name: dubbo-springboot-demo-consumer
+  protocol:
+    name: dubbo
+    port: -1
+  registry:
+    address: zookeeper://${zookeeper.address}:2181
+#写你自己安装zookeeper的服务器地址
+zookeeper:
+  address: xxxxxxx
+server:
+  port: 8081

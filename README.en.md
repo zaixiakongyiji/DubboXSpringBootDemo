@@ -1,22 +1,17 @@
 # Dubbo x Spring BootDemo
 
 #### Description
-一个Dubbo x Spring Boot的小Demo,在配置文件中填入自己的zookeeper地址即可启动
+A small demo of Dubbo x Spring Boot
 
 #### Software Architecture
-Software architecture description
+Dubbo+SpringBoot+knife4j
 
-#### Installation
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
 
 #### Instructions
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  Fill in your own zookeeper address in the appliaction.yml file
+2.  Start P App
+3.  Start C App
 
 #### Contribution
 

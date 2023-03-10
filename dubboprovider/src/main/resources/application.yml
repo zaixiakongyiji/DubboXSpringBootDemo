@@ -1,5 +1,3 @@
-server:
-  port: 8080
 dubbo:
   application:
     name: dubbo-springboot-demo-provider
@@ -8,7 +6,9 @@ dubbo:
     name: dubbo
     port: -1
   registry:
-    address: zookeeper://${zookeeper.address}:2181
+    address: zookeeper://${zookeeper.address:127.0.0.1}:2181
 #写你自己安装zookeeper的服务器地址
 zookeeper:
   address: xxxxxxx
+server:
+  port: 8080

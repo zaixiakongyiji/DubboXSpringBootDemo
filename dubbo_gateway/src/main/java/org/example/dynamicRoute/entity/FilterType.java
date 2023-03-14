@@ -8,10 +8,10 @@ import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 
-@ApiModel(description="predicate_type")
+@ApiModel(description="filter_type")
 @Data
-@TableName(value = "predicate_type")
-public class PredicateType {
+@TableName(value = "filter_type")
+public class FilterType {
     @TableId(value = "id", type = IdType.AUTO)
     @ApiModelProperty(value="")
     private Integer id;

@@ -4,7 +4,7 @@
 一个Dubbo x Spring Boot的小Demo
 
 #### 软件架构
-Dubbo+SpringBoot+knife4j
+Dubbo+SpringBoot+knife4j+gateway
 
 
 #### 使用说明

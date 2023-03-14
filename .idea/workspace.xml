@@ -4,17 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80d40c8d-0b79-469f-ab41-d02520923103" name="变更" comment="dubbo+zookeeper+gateway动态路由">
-      <change afterPath="$PROJECT_DIR$/dubbo_gateway/src/main/java/org/example/dynamicRoute/entity/PredicateType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo_gateway/src/main/java/org/example/dynamicRoute/mapper/PredicateTypeMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo_gateway/src/main/java/org/example/dynamicRoute/service/PredicateTypeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo_gateway/src/main/java/org/example/dynamicRoute/service/impl/PredicateTypeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo_gateway/src/main/resources/mapper/PredicateTypeMapper.xml" afterDir="false" />
+    <list default="true" id="80d40c8d-0b79-469f-ab41-d02520923103" name="变更" comment="dubbo+zookeeper+gateway动态路由 支持所有断言类型&#10;过滤器还没试">
+      <change afterPath="$PROJECT_DIR$/dubbo_gateway/src/main/java/org/example/dynamicRoute/entity/FilterType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo_gateway/src/main/java/org/example/dynamicRoute/mapper/FilterTypeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo_gateway/src/main/java/org/example/dynamicRoute/service/FilterTypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo_gateway/src/main/java/org/example/dynamicRoute/service/impl/FilterTypeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo_gateway/src/main/resources/mapper/FilterTypeMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/MyBatisCodeHelperDatasource.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MyBatisCodeHelperDatasource.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3a1c87ff-21e9-4e33-9a40-6fef505a67ed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/3a1c87ff-21e9-4e33-9a40-6fef505a67ed.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo_gateway/src/main/java/org/example/GateAwayApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo_gateway/src/main/java/org/example/GateAwayApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo_consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo_consumer/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dubbo_gateway/src/main/java/org/example/component/DynamicRouteServiceHander.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo_gateway/src/main/java/org/example/component/DynamicRouteServiceHander.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dubbo_gateway/src/main/java/org/example/dynamicRoute/entity/GatewayFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo_gateway/src/main/java/org/example/dynamicRoute/entity/GatewayFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo_gateway/src/main/java/org/example/dynamicRoute/entity/GatewayPredicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo_gateway/src/main/java/org/example/dynamicRoute/entity/GatewayPredicate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo_gateway/src/main/java/org/example/dynamicRoute/entity/PredicateType.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo_gateway/src/main/java/org/example/dynamicRoute/entity/PredicateType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo_gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo_gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo_provider/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo_provider/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,39 +55,39 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelOrder2&quot;: &quot;2&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth2&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-1.8&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Work/IdeaWork/dubbo-x-spring-boot-demo/dubbo_gateway/src/main/java/org/example/dynamicRoute/entity&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;项目&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.7&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;ddc92cd8373ab41321d9b576e9483d31&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelOrder2": "2",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RequestMappingsPanelWidth2": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "corretto-1.8",
+    "last_opened_file_path": "D:/Work/IdeaWork/dubbo-x-spring-boot-demo/dubbo_gateway/src/main/java/org/example/dynamicRoute/entity",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "项目",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.7",
+    "settings.editor.selected.configurable": "vcs.Git",
+    "spring.configuration.checksum": "ddc92cd8373ab41321d9b576e9483d31",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -98,6 +103,7 @@
       <recent name="D:\Work\IdeaWork\dubbo-x-spring-boot-demo\dubbointerface\src\main\java\org\example" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Work\IdeaWork\dubbo-x-spring-boot-demo\dubbo_gateway\src\main\resources\mapper" />
       <recent name="D:\Work\IdeaWork\dubbo-x-spring-boot-demo\dubboconsumer\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -187,7 +193,7 @@
       <workItem from="1678438003457" duration="21207000" />
       <workItem from="1678690573691" duration="12856000" />
       <workItem from="1678757309525" duration="1588000" />
-      <workItem from="1678758964968" duration="14768000" />
+      <workItem from="1678758964968" duration="18044000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1677812178889</created>
@@ -224,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678774924237</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="dubbo+zookeeper+gateway动态路由 支持所有断言类型&#10;过滤器还没试">
+      <created>1678779038108</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678779038108</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,7 +259,8 @@
     <MESSAGE value="1" />
     <MESSAGE value="dubbo+zookeeper+gateway" />
     <MESSAGE value="dubbo+zookeeper+gateway动态路由" />
-    <option name="LAST_COMMIT_MESSAGE" value="dubbo+zookeeper+gateway动态路由" />
+    <MESSAGE value="dubbo+zookeeper+gateway动态路由 支持所有断言类型&#10;过滤器还没试" />
+    <option name="LAST_COMMIT_MESSAGE" value="dubbo+zookeeper+gateway动态路由 支持所有断言类型&#10;过滤器还没试" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

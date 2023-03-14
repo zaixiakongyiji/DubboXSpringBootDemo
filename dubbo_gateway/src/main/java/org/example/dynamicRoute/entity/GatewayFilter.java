@@ -12,36 +12,37 @@ import lombok.Data;
 @Data
 @TableName(value = "gateway_filter")
 public class GatewayFilter {
+    public static final String COL_PARAM_TYPE = "param_type";
     @TableId(value = "id", type = IdType.AUTO)
-    @ApiModelProperty(value = "主键id")
+    @ApiModelProperty(value = "")
     private Integer id;
 
     /**
      * 路由id
      */
     @TableField(value = "rId")
-    @ApiModelProperty(value="路由id")
+    @ApiModelProperty(value = "路由id")
     private Integer rid;
 
     /**
      * 过滤器名字
      */
     @TableField(value = "`name`")
-    @ApiModelProperty(value="过滤器名字")
+    @ApiModelProperty(value = "过滤器名字")
     private String name;
 
     /**
      * 参数1
      */
     @TableField(value = "param_one")
-    @ApiModelProperty(value="参数1")
+    @ApiModelProperty(value = "参数1")
     private String paramOne;
 
     /**
      * 参数2
      */
     @TableField(value = "param_two")
-    @ApiModelProperty(value="参数2")
+    @ApiModelProperty(value = "参数2")
     private String paramTwo;
 
     public static final String COL_ID = "id";
@@ -49,8 +50,6 @@ public class GatewayFilter {
     public static final String COL_RID = "rId";
 
     public static final String COL_NAME = "name";
-
-    public static final String COL_PARAM_TYPE = "param_type";
 
     public static final String COL_PARAM_ONE = "param_one";
 

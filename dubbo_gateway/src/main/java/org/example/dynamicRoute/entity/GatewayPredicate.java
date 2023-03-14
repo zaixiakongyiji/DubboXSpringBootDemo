@@ -31,13 +31,6 @@ public class GatewayPredicate {
     private String name;
 
     /**
-     * 参数类型
-     */
-    @TableField(value = "params_type")
-    @ApiModelProperty(value="参数类型")
-    private String paramsType;
-
-    /**
      * 参数1
      */
     @TableField(value = "params_one")

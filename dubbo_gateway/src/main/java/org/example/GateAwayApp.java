@@ -12,6 +12,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  */
 @SpringBootApplication
 @EnableDubbo
+@MapperScan(basePackages = "org.example.dynamicRoute.mapper")
 public class GateAwayApp
 {
     public static void main( String[] args )

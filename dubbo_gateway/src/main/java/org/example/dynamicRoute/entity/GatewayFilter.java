@@ -31,13 +31,6 @@ public class GatewayFilter {
     private String name;
 
     /**
-     * 参数类型
-     */
-    @TableField(value = "param_type")
-    @ApiModelProperty(value="参数类型")
-    private String paramType;
-
-    /**
      * 参数1
      */
     @TableField(value = "param_one")

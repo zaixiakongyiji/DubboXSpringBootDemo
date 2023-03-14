@@ -10,24 +10,33 @@
     <name>dubboparent</name>
     <url>http://maven.apache.org</url>
     <modules>
-        <module>dubbointerface</module>
-        <module>dubboprovider</module>
-        <module>dubboconsumer</module>
-        <module>dubbogateway</module>
+        <module>dubbo_api</module>
+        <module>dubbo_provider</module>
+        <module>dubbo_consumer</module>
+        <module>dubbo_gateway</module>
     </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <dubbo.version>3.2.0-beta.4</dubbo.version>
         <junit.version>3.8.1</junit.version>
+        <spring_boot.version>2.7.8</spring_boot.version>
+        <lombok.version>1.18.26</lombok.version>
+        <mp.version>3.5.3</mp.version>
+        <knife4j.version>2.0.4</knife4j.version>
+        <spring_cloud_gateway>3.1.5</spring_cloud_gateway>
+        <spring_cloud_alibaba>2021.1</spring_cloud_alibaba>
+        <druid.version>1.2.15</druid.version>
+        <mysql.version>8.0.27</mysql.version>
     </properties>
 
     <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.7.8</version>
+        <groupId>org.apache</groupId>
+        <artifactId>apache</artifactId>
+        <version>23</version>
+        <relativePath/>
     </parent>
-
+    <dependencyManagement>
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
@@ -51,6 +60,7 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
+            <version>${spring_boot.version}</version>
         </dependency>
         <!-- Zookeeper dependencies -->
         <dependency>
@@ -60,8 +70,63 @@
             <type>pom</type>
         </dependency>
 
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>${lombok.version}</version>
+        </dependency>
 
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-extension</artifactId>
+            <version>${mp.version}</version>
+        </dependency>
 
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
+            <version>${mp.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.github.xiaoymin</groupId>
+            <artifactId>knife4j-spring-boot-starter</artifactId>
+            <version>${knife4j.version}</version>
+        </dependency>
+
+        <!-- SpringCloud Gateway-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-gateway</artifactId>
+            <version>${spring_cloud_gateway}</version>
+        </dependency>
+        <!-- SpringCloud Alibaba Sentinel -->
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-sentinel</artifactId>
+            <version>${spring_cloud_alibaba}</version>
+        </dependency>
+
+        <!-- SpringCloud Alibaba Sentinel Gateway -->
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-alibaba-sentinel-gateway</artifactId>
+            <version>${spring_cloud_alibaba}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid</artifactId>
+            <version>${druid.version}</version>
+        </dependency>
+
+        <!-- Mysql驱动包 -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>${mysql.version}</version>
+        </dependency>
 
     </dependencies>
+    </dependencyManagement>
 </project>

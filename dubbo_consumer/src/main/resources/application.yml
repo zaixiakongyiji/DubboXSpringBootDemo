@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: Dubbo_Test
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/dubbo?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+    username: root
+    password: 123456
+dubbo:
+  application:
+    name: dubbo-consumer
+    qos-port: 55555
+  protocol:
+    name: dubbo
+    port: 20881
+  registry:
+    address: zookeeper://${zookeeper.address:127.0.0.1}:2181
+#写你自己安装zookeeper的服务器地址
+zookeeper:
+  address: xxxxxx
+server:
+  port: 8081

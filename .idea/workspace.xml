@@ -4,18 +4,54 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80d40c8d-0b79-469f-ab41-d02520923103" name="变更" comment="1">
-      <change afterPath="$PROJECT_DIR$/dubbogateway/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbogateway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbogateway/src/main/java/org/example/GateAwayApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbogateway/src/main/java/org/example/config/CustomRoutesConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbogateway/src/main/resources/application.yml" afterDir="false" />
+    <list default="true" id="80d40c8d-0b79-469f-ab41-d02520923103" name="变更" comment="dubbo+zookeeper+gateway">
+      <change afterPath="$PROJECT_DIR$/.idea/MyBatisCodeHelperDatasource.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/3a1c87ff-21e9-4e33-9a40-6fef505a67ed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/3a1c87ff-21e9-4e33-9a40-6fef505a67ed/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/3a1c87ff-21e9-4e33-9a40-6fef505a67ed/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/3a1c87ff-21e9-4e33-9a40-6fef505a67ed/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo_api/src/main/java/org/example/service/RouteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo_gateway/src/main/java/org/example/component/DynamicRouteServiceHander.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo_gateway/src/main/java/org/example/component/RedisRouteDefinitionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo_gateway/src/main/java/org/example/dynamicRoute/entity/GatewayFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo_gateway/src/main/java/org/example/dynamicRoute/entity/GatewayPredicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo_gateway/src/main/java/org/example/dynamicRoute/entity/GatewayRoute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo_gateway/src/main/java/org/example/dynamicRoute/mapper/GatewayFilterMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo_gateway/src/main/java/org/example/dynamicRoute/mapper/GatewayPredicateMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo_gateway/src/main/java/org/example/dynamicRoute/mapper/GatewayRouteMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo_gateway/src/main/java/org/example/dynamicRoute/service/GatewayFilterService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo_gateway/src/main/java/org/example/dynamicRoute/service/GatewayPredicateService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo_gateway/src/main/java/org/example/dynamicRoute/service/GatewayRouteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo_gateway/src/main/java/org/example/dynamicRoute/service/impl/GatewayFilterServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo_gateway/src/main/java/org/example/dynamicRoute/service/impl/GatewayPredicateServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo_gateway/src/main/java/org/example/dynamicRoute/service/impl/GatewayRouteServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo_gateway/src/main/resources/mapper/GatewayFilterMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo_gateway/src/main/resources/mapper/GatewayPredicateMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo_gateway/src/main/resources/mapper/GatewayRouteMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubboconsumer/src/main/java/org/example/Contraller.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubboconsumer/src/main/java/org/example/Contraller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubboconsumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dubboconsumer/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubboprovider/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dubboprovider/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubboconsumer/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo_api/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubboconsumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo_consumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubboconsumer/src/main/java/org/example/CApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo_consumer/src/main/java/org/example/ConsumerApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubboconsumer/src/main/java/org/example/Contraller.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo_consumer/src/main/java/org/example/Contraller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubboconsumer/src/main/java/org/example/SwaggerConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo_consumer/src/main/java/org/example/SwaggerConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubboconsumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo_consumer/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbogateway/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo_consumer/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbogateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo_gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbogateway/src/main/java/org/example/GateAwayApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo_gateway/src/main/java/org/example/GateAwayApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbogateway/src/main/java/org/example/config/CustomRoutesConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbogateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo_gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbointerface/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo_gateway/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbointerface/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo_api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbointerface/src/main/java/org/example/service/InterFaceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo_api/src/main/java/org/example/service/InterFaceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubboprovider/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo_provider/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubboprovider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo_provider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubboprovider/src/main/java/org/example/PApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo_provider/src/main/java/org/example/ProviderApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubboprovider/src/main/java/org/example/serviceImpl/InterFaceServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo_provider/src/main/java/org/example/serviceImpl/InterFaceServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubboprovider/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo_provider/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,12 +63,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="spring配置文件1" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/dubboconsumer/src/main/resources/application.yml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/dubbo_consumer/src/main/resources/application.yml" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -65,17 +102,23 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-1.8&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Work/IdeaWork/dubboparent/dubboconsumer/src/main/resources&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Work/IdeaWork/dubbo-x-spring-boot-demo/dubbo_gateway/src/main/java/org/example/dynamicRoute/entity&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;工件&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;项目&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.7&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;4127157b8043a15e5eded51bb7de4fb1&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;ddc92cd8373ab41321d9b576e9483d31&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
   }
 }</component>
   <component name="ReactorSettings">
@@ -83,16 +126,28 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Work\IdeaWork\dubboparent\dubboconsumer\src\main\resources" />
+      <recent name="D:\Work\IdeaWork\dubbo-x-spring-boot-demo\dubbo_gateway\src\main\java\org\example\dynamicRoute" />
+      <recent name="D:\Work\IdeaWork\dubbo-x-spring-boot-demo\dubbogateway\src\main\java\org\example" />
+      <recent name="D:\Work\IdeaWork\dubbo-x-spring-boot-demo\dubbointerface\src\main\java\org\example\service" />
+      <recent name="D:\Work\IdeaWork\dubbo-x-spring-boot-demo\dubbointerface\src\main\resources\mapper" />
+      <recent name="D:\Work\IdeaWork\dubbo-x-spring-boot-demo\dubbointerface\src\main\java\org\example" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Work\IdeaWork\dubbo-x-spring-boot-demo\dubboconsumer\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.example" />
     </key>
   </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+    </option>
+  </component>
   <component name="RunManager" selected="Spring Boot.GateAwayApp">
-    <configuration name="CApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="dubboconsumer" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.CApp" />
+    <configuration name="ConsumerApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="dubbo_consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.ConsumerApp" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
@@ -104,7 +159,7 @@
       </method>
     </configuration>
     <configuration name="GateAwayApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="dubbogateway" />
+      <module name="dubbo_gateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.GateAwayApp" />
       <extension name="coverage">
         <pattern>
@@ -116,9 +171,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="dubboprovider" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.PApp" />
+    <configuration name="ProviderApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="dubbo_provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.ProviderApp" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
@@ -129,11 +184,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="lua.app" factoryName="Lua Application">
+      <option name="program" value="lua.exe" />
+      <option name="file" value="" />
+      <option name="workingDir" value="$PROJECT_DIR$/dubbogateway/src/main/java" />
+      <option name="debuggerType" value="1" />
+      <option name="params" value="" />
+      <option name="charset" value="UTF-8" />
+      <option name="showConsole" value="true" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.GateAwayApp" />
-        <item itemvalue="Spring Boot.CApp" />
-        <item itemvalue="Spring Boot.PApp" />
+        <item itemvalue="Spring Boot.ConsumerApp" />
+        <item itemvalue="Spring Boot.ProviderApp" />
       </list>
     </recent_temporary>
   </component>
@@ -150,7 +215,13 @@
       <workItem from="1677812783372" duration="684000" />
       <workItem from="1677821264164" duration="9315000" />
       <workItem from="1678085339572" duration="1440000" />
-      <workItem from="1678347458323" duration="6639000" />
+      <workItem from="1678347458323" duration="8630000" />
+      <workItem from="1678414613836" duration="51000" />
+      <workItem from="1678415429653" duration="16524000" />
+      <workItem from="1678438003457" duration="21207000" />
+      <workItem from="1678690573691" duration="12856000" />
+      <workItem from="1678757309525" duration="1588000" />
+      <workItem from="1678758964968" duration="9546000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1677812178889</created>
@@ -166,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677813221819</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="1">
+      <created>1678411704925</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678411704925</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,7 +264,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="dubbo+zookeeper+gateway" />
+    <option name="LAST_COMMIT_MESSAGE" value="dubbo+zookeeper+gateway" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

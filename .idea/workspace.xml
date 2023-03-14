@@ -5,54 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="80d40c8d-0b79-469f-ab41-d02520923103" name="变更" comment="dubbo+zookeeper+gateway">
-      <change afterPath="$PROJECT_DIR$/.idea/MyBatisCodeHelperDatasource.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/3a1c87ff-21e9-4e33-9a40-6fef505a67ed.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/3a1c87ff-21e9-4e33-9a40-6fef505a67ed/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/3a1c87ff-21e9-4e33-9a40-6fef505a67ed/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/3a1c87ff-21e9-4e33-9a40-6fef505a67ed/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo_api/src/main/java/org/example/service/RouteService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo_gateway/src/main/java/org/example/component/DynamicRouteServiceHander.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo_gateway/src/main/java/org/example/component/RedisRouteDefinitionRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo_gateway/src/main/java/org/example/dynamicRoute/entity/GatewayFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo_gateway/src/main/java/org/example/dynamicRoute/entity/GatewayPredicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo_gateway/src/main/java/org/example/dynamicRoute/entity/GatewayRoute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo_gateway/src/main/java/org/example/dynamicRoute/mapper/GatewayFilterMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo_gateway/src/main/java/org/example/dynamicRoute/mapper/GatewayPredicateMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo_gateway/src/main/java/org/example/dynamicRoute/mapper/GatewayRouteMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo_gateway/src/main/java/org/example/dynamicRoute/service/GatewayFilterService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo_gateway/src/main/java/org/example/dynamicRoute/service/GatewayPredicateService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo_gateway/src/main/java/org/example/dynamicRoute/service/GatewayRouteService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo_gateway/src/main/java/org/example/dynamicRoute/service/impl/GatewayFilterServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo_gateway/src/main/java/org/example/dynamicRoute/service/impl/GatewayPredicateServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo_gateway/src/main/java/org/example/dynamicRoute/service/impl/GatewayRouteServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo_gateway/src/main/resources/mapper/GatewayFilterMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo_gateway/src/main/resources/mapper/GatewayPredicateMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo_gateway/src/main/resources/mapper/GatewayRouteMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubboconsumer/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo_api/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubboconsumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo_consumer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubboconsumer/src/main/java/org/example/CApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo_consumer/src/main/java/org/example/ConsumerApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubboconsumer/src/main/java/org/example/Contraller.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo_consumer/src/main/java/org/example/Contraller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubboconsumer/src/main/java/org/example/SwaggerConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo_consumer/src/main/java/org/example/SwaggerConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubboconsumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo_consumer/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbogateway/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo_consumer/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbogateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo_gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbogateway/src/main/java/org/example/GateAwayApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo_gateway/src/main/java/org/example/GateAwayApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbogateway/src/main/java/org/example/config/CustomRoutesConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbogateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo_gateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbointerface/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo_gateway/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbointerface/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo_api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbointerface/src/main/java/org/example/service/InterFaceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo_api/src/main/java/org/example/service/InterFaceService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubboprovider/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo_provider/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubboprovider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo_provider/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubboprovider/src/main/java/org/example/PApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo_provider/src/main/java/org/example/ProviderApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubboprovider/src/main/java/org/example/serviceImpl/InterFaceServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo_provider/src/main/java/org/example/serviceImpl/InterFaceServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubboprovider/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo_provider/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo_consumer/src/main/java/org/example/ConsumerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo_consumer/src/main/java/org/example/ConsumerApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo_consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo_consumer/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo_gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo_gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo_provider/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo_provider/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,6 +98,7 @@
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
+      <command value="mvn compile" />
       <command value="mvn clean" />
     </option>
   </component>
@@ -221,7 +179,7 @@
       <workItem from="1678438003457" duration="21207000" />
       <workItem from="1678690573691" duration="12856000" />
       <workItem from="1678757309525" duration="1588000" />
-      <workItem from="1678758964968" duration="9546000" />
+      <workItem from="1678758964968" duration="10213000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1677812178889</created>
@@ -244,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678411704925</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="dubbo+zookeeper+gateway">
+      <created>1678773821192</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678773821192</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

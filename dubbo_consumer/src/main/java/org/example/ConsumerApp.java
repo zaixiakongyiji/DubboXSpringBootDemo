@@ -24,7 +24,6 @@ public class ConsumerApp {
 
         SpringApplication app = new SpringApplication(ConsumerApp.class);
         ConfigurableApplicationContext application = app.run(args);
-        //ConfigurableApplicationContext application=SpringApplication.run(Knife4jSpringBootDemoApplication.class, args);
         Environment env = application.getEnvironment();
         logger.info("\n----------------------------------------------------------\n\t" +
                         "{} 启动成功!:\n\t" +

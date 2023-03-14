@@ -2,7 +2,7 @@ spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driverClassName: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/dubbo?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+    url: jdbc:mysql://${configure.dev.address:localhost}:3306/dubbo?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
     username: root
     password: 123456
 dubbo:
@@ -13,11 +13,14 @@ dubbo:
     name: dubbo
     port: 20880
   registry:
-    address: zookeeper://${zookeeper.address:127.0.0.1}:2181
+    address: zookeeper://${configure.prod.address:127.0.0.1}:2181
 
 #写你自己安装zookeeper的服务器地址
-zookeeper:
-  address: xxxxx
 server:
   port: 8080
+configure:
+  dev:
+    address: xxxx
+  prod:
+    address: xxxx
 

@@ -47,10 +47,16 @@ public class DynamicRouteServiceHander implements RouteService,ApplicationEventP
     @Autowired
     RedisRouteDefinitionRepository routeDefinitionWriter;
 
-
     /**
-     * 后期可以采用数据库存储方式或者其他可以变更的存储方式
-     **/
+     *启动的时候运行这个方法
+     * @param args incoming main method arguments
+     * @throws Exception
+     */
+    @Override
+    public void run(String... args) throws Exception {
+        this.getRouteDefinitions();
+    }
+
     @Override
     public String getRouteDefinitions() {
         List<GatewayRoute> routes = routeService.list();
@@ -88,14 +94,14 @@ public class DynamicRouteServiceHander implements RouteService,ApplicationEventP
                 definition.setFilters(filterList);
             }
             routeDefinitionWriter.save(Mono.just(definition)).subscribe();
+            /**
+             * 通知GatewayAutoConfiguration里面的routeRefreshListener自己去刷新路由
+             * 原来 new RefreshRoutesEvent(new RefreshRoutesEvent( xx)) 里面装的是 this 不知道为啥报空指针
+             * 但是这个里面的object好像不是很重要 我就搞了这么个在里面
+             */
             publisher.publishEvent(new RefreshRoutesEvent("刷新路由"));
         });
         return "success";
     }
 
-
-    @Override
-    public void run(String... args) throws Exception {
-        this.getRouteDefinitions();
-    }
 }

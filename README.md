@@ -12,6 +12,8 @@ Dubbo+SpringBoot+knife4j+gateway
 1.  在 appliaction.yml中填入自己的zookeeper地址
 2.  启动PApp
 3.  启动CApp
+4.  CircuitBreaker GatewayFilter Factory
+5. 
 
 #### 参与贡献
 

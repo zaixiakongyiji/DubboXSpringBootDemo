@@ -4,20 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80d40c8d-0b79-469f-ab41-d02520923103" name="变更" comment="dubbo+zookeeper+gateway动态路由 支持所有断言类型&#10;过滤器还没试">
-      <change afterPath="$PROJECT_DIR$/dubbo_gateway/src/main/java/org/example/dynamicRoute/entity/FilterType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo_gateway/src/main/java/org/example/dynamicRoute/mapper/FilterTypeMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo_gateway/src/main/java/org/example/dynamicRoute/service/FilterTypeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo_gateway/src/main/java/org/example/dynamicRoute/service/impl/FilterTypeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo_gateway/src/main/resources/mapper/FilterTypeMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/MyBatisCodeHelperDatasource.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MyBatisCodeHelperDatasource.xml" afterDir="false" />
+    <list default="true" id="80d40c8d-0b79-469f-ab41-d02520923103" name="变更" comment="dubbo+zookeeper+gateway动态路由 支持所有断言类型&#10;过滤器类型30多个 官方文档还看不懂 不整了 nnd">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/3a1c87ff-21e9-4e33-9a40-6fef505a67ed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/3a1c87ff-21e9-4e33-9a40-6fef505a67ed.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dubbo_consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo_consumer/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo_gateway/src/main/java/org/example/component/DynamicRouteServiceHander.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo_gateway/src/main/java/org/example/component/DynamicRouteServiceHander.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo_gateway/src/main/java/org/example/dynamicRoute/entity/FilterType.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo_gateway/src/main/java/org/example/dynamicRoute/entity/FilterType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dubbo_gateway/src/main/java/org/example/dynamicRoute/entity/GatewayFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo_gateway/src/main/java/org/example/dynamicRoute/entity/GatewayFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo_gateway/src/main/java/org/example/dynamicRoute/entity/PredicateType.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo_gateway/src/main/java/org/example/dynamicRoute/entity/PredicateType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dubbo_gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo_gateway/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dubbo_provider/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo_provider/src/main/resources/application.yml" afterDir="false" />
     </list>
@@ -69,7 +62,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "corretto-1.8",
-    "last_opened_file_path": "D:/Work/IdeaWork/dubbo-x-spring-boot-demo/dubbo_gateway/src/main/java/org/example/dynamicRoute/entity",
+    "last_opened_file_path": "D:/Work/IdeaWork/dubbo-x-spring-boot-demo/dubbo_gateway/src/main/java/org",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -96,11 +89,11 @@
       <recent name="org.example.dynamicRoute.mapper" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Work\IdeaWork\dubbo-x-spring-boot-demo\sql" />
       <recent name="D:\Work\IdeaWork\dubbo-x-spring-boot-demo\dubbo_gateway\src\main\java\org\example\dynamicRoute" />
       <recent name="D:\Work\IdeaWork\dubbo-x-spring-boot-demo\dubbogateway\src\main\java\org\example" />
       <recent name="D:\Work\IdeaWork\dubbo-x-spring-boot-demo\dubbointerface\src\main\java\org\example\service" />
       <recent name="D:\Work\IdeaWork\dubbo-x-spring-boot-demo\dubbointerface\src\main\resources\mapper" />
-      <recent name="D:\Work\IdeaWork\dubbo-x-spring-boot-demo\dubbointerface\src\main\java\org\example" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Work\IdeaWork\dubbo-x-spring-boot-demo\dubbo_gateway\src\main\resources\mapper" />
@@ -193,7 +186,7 @@
       <workItem from="1678438003457" duration="21207000" />
       <workItem from="1678690573691" duration="12856000" />
       <workItem from="1678757309525" duration="1588000" />
-      <workItem from="1678758964968" duration="18044000" />
+      <workItem from="1678758964968" duration="22621000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1677812178889</created>
@@ -237,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678779038108</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="dubbo+zookeeper+gateway动态路由 支持所有断言类型&#10;过滤器类型30多个 官方文档还看不懂 不整了 nnd">
+      <created>1678782302877</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1678782302877</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,7 +260,9 @@
     <MESSAGE value="dubbo+zookeeper+gateway" />
     <MESSAGE value="dubbo+zookeeper+gateway动态路由" />
     <MESSAGE value="dubbo+zookeeper+gateway动态路由 支持所有断言类型&#10;过滤器还没试" />
-    <option name="LAST_COMMIT_MESSAGE" value="dubbo+zookeeper+gateway动态路由 支持所有断言类型&#10;过滤器还没试" />
+    <MESSAGE value="dubbo+zookeeper+gateway动态路由 支持所有断言类型&#10;过滤器类型30多个 官方文档还看不懂 不整了" />
+    <MESSAGE value="dubbo+zookeeper+gateway动态路由 支持所有断言类型&#10;过滤器类型30多个 官方文档还看不懂 不整了 nnd" />
+    <option name="LAST_COMMIT_MESSAGE" value="dubbo+zookeeper+gateway动态路由 支持所有断言类型&#10;过滤器类型30多个 官方文档还看不懂 不整了 nnd" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

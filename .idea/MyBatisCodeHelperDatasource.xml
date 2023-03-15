@@ -61,7 +61,7 @@
             <entry key="dubbo:filter_type">
               <value>
                 <TableGenerateConfig>
-                  <option name="generatedKey" value="" />
+                  <option name="generatedKey" value="id" />
                   <option name="javaModelName" value="FilterType" />
                   <option name="moduleName" value="dubbo_provider" />
                   <option name="sequenceColumn" value="" />

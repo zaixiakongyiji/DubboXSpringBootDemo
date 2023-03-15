@@ -45,6 +45,41 @@ public class GatewayFilter {
     @ApiModelProperty(value = "参数2")
     private String paramTwo;
 
+    /**
+     * 参数3
+     */
+    @TableField(value = "param_three")
+    @ApiModelProperty(value = "参数3")
+    private String paramThree;
+
+    /**
+     * 参数4
+     */
+    @TableField(value = "param_four")
+    @ApiModelProperty(value = "参数4")
+    private String paramFour;
+
+    /**
+     * 参数5
+     */
+    @TableField(value = "param_five")
+    @ApiModelProperty(value = "参数5")
+    private String paramFive;
+
+    /**
+     * 参数6
+     */
+    @TableField(value = "param_six")
+    @ApiModelProperty(value = "参数6")
+    private String paramSix;
+
+    /**
+     * 参数7
+     */
+    @TableField(value = "param_seven")
+    @ApiModelProperty(value = "参数7")
+    private String paramSeven;
+
     public static final String COL_ID = "id";
 
     public static final String COL_RID = "rId";
@@ -54,4 +89,14 @@ public class GatewayFilter {
     public static final String COL_PARAM_ONE = "param_one";
 
     public static final String COL_PARAM_TWO = "param_two";
+
+    public static final String COL_PARAM_THREE = "param_three";
+
+    public static final String COL_PARAM_FOUR = "param_four";
+
+    public static final String COL_PARAM_FIVE = "param_five";
+
+    public static final String COL_PARAM_SIX = "param_six";
+
+    public static final String COL_PARAM_SEVEN = "param_seven";
 }

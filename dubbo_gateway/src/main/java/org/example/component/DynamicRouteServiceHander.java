@@ -105,6 +105,21 @@ public class DynamicRouteServiceHander implements RouteService, ApplicationEvent
                             if (StringUtils.checkValNotNull(f.getParamTwo())) {
                                 filterParams.put(ft.getNameKeyTwo(), f.getParamTwo());
                             }
+                            if (StringUtils.checkValNotNull(f.getParamThree())) {
+                                filterParams.put(ft.getNameKeyThree(), f.getParamThree());
+                            }
+                            if (StringUtils.checkValNotNull(f.getParamFour())) {
+                                filterParams.put(ft.getNameKeyFour(), f.getParamFour());
+                            }
+                            if (StringUtils.checkValNotNull(f.getParamFive())) {
+                                filterParams.put(ft.getNameKeyFive(), f.getParamFive());
+                            }
+                            if (StringUtils.checkValNotNull(f.getParamSix())) {
+                                filterParams.put(ft.getNameKeySix(), f.getParamSix());
+                            }
+                            if (StringUtils.checkValNotNull(f.getParamSeven())) {
+                                filterParams.put(ft.getNameKeySeven(), f.getParamSeven());
+                            }
                         }
                     });
                     filter.setArgs(filterParams);

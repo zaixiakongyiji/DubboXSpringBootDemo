@@ -8,24 +8,24 @@ import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 
-@ApiModel(description="predicate_type")
+@ApiModel(description = "predicate_type")
 @Data
 @TableName(value = "predicate_type")
 public class PredicateType {
     @TableId(value = "id", type = IdType.AUTO)
-    @ApiModelProperty(value="")
+    @ApiModelProperty(value = "")
     private Integer id;
 
     @TableField(value = "`name`")
-    @ApiModelProperty(value="")
+    @ApiModelProperty(value = "")
     private String name;
 
     @TableField(value = "name_key_one")
-    @ApiModelProperty(value="")
+    @ApiModelProperty(value = "")
     private String nameKeyOne;
 
     @TableField(value = "name_key_two")
-    @ApiModelProperty(value="")
+    @ApiModelProperty(value = "")
     private String nameKeyTwo;
 
     public static final String COL_ID = "id";

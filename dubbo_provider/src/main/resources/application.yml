@@ -20,7 +20,7 @@ server:
   port: 8080
 configure:
   dev:
-    address: xxxx
+    address: xxx
   prod:
     address: xxxx
 

@@ -7,15 +7,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
  * Hello world!
- *
  */
 @SpringBootApplication
 @EnableDubbo
-public class ProviderApp
-{
-    public static void main( String[] args )
-    {
-        SpringApplication.run(ProviderApp.class,args);
+public class ProviderApp {
+    public static void main(String[] args) {
+        SpringApplication.run(ProviderApp.class, args);
 
     }
 }

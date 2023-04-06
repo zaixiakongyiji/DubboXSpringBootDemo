@@ -17,12 +17,12 @@ import java.util.Map;
 @Slf4j
 public class RedisRouteDefinitionRepository implements RouteDefinitionRepository {
 
-    private Map<Object, RouteDefinition> routeDefinitionMap=new HashMap<>();
+    private Map<Object, RouteDefinition> routeDefinitionMap = new HashMap<>();
 
     @Override
     public Flux<RouteDefinition> getRouteDefinitions() {
         List<RouteDefinition> routeDefinitions = new ArrayList<>();
-        routeDefinitionMap.forEach((k,v) ->{
+        routeDefinitionMap.forEach((k, v) -> {
             routeDefinitions.add(v);
         });
         return Flux.fromIterable(routeDefinitions);
@@ -32,8 +32,8 @@ public class RedisRouteDefinitionRepository implements RouteDefinitionRepository
     public Mono<Void> save(Mono<RouteDefinition> route) {
         return route
                 .flatMap(routeDefinition -> {
-                    log.info("routeDefinition:"+routeDefinition);
-                    routeDefinitionMap.put(routeDefinition.getId(),routeDefinition);
+                    log.info("routeDefinition:" + routeDefinition);
+                    routeDefinitionMap.put(routeDefinition.getId(), routeDefinition);
                     return Mono.empty();
                 });
     }

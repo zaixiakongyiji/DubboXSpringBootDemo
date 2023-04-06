@@ -10,20 +10,20 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.cloud.gateway.event.RefreshRoutesEvent;
 import org.springframework.cloud.gateway.filter.FilterDefinition;
-import org.springframework.cloud.gateway.handler.predicate.CookieRoutePredicateFactory;
 import org.springframework.cloud.gateway.handler.predicate.PredicateDefinition;
 import org.springframework.cloud.gateway.route.RouteDefinition;
 import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.context.ApplicationEventPublisherAware;
 import org.springframework.stereotype.Component;
-import org.springframework.stereotype.Service;
 import reactor.core.publisher.Mono;
 
 import java.net.URI;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 @Component
-//@Service
 @DubboService
 public class DynamicRouteServiceHander implements RouteService, ApplicationEventPublisherAware, CommandLineRunner {
 
@@ -39,15 +39,13 @@ public class DynamicRouteServiceHander implements RouteService, ApplicationEvent
 
     @Autowired
     FilterTypeService filterTypeService;
+    @Autowired
+    RedisRouteDefinitionRepository routeDefinitionWriter;
 
     @Override
     public void setApplicationEventPublisher(ApplicationEventPublisher applicationEventPublisher) {
         this.publisher = applicationEventPublisher;
     }
-
-
-    @Autowired
-    RedisRouteDefinitionRepository routeDefinitionWriter;
 
     /**
      * 启动的时候运行这个方法

@@ -16,7 +16,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 public class SwaggerConfiguration {
     @Bean(value = "defaultApi2")
     public Docket defaultApi2() {
-        Docket docket=new Docket(DocumentationType.SWAGGER_2)
+        Docket docket = new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(apiInfo())
                 .groupName("Dubbo_Test")
                 .select()
@@ -26,6 +26,7 @@ public class SwaggerConfiguration {
                 .build();
         return docket;
     }
+
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
                 .title("Dubbo_Test APIs")
